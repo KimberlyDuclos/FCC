@@ -1,0 +1,8 @@
+function slasher(arr, howMany) {
+
+var removed = arr.splice(howMany); // splice removes as many chars equal to number provided/store in howMany
+
+return removed;
+}
+
+slasher([1, 2, 3], 2);
