@@ -1,8 +1,0 @@
-function reverseString(str) {  // function declaration
-  
-  str = str.split('').reverse().join(''); // splite chars, reverse chars, join to str
-  
-  return str;  // return updated str
-}
-
-reverseString("hello");  // input

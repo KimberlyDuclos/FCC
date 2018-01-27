@@ -1,4 +1,4 @@
-function largestOfFour(arr) {
+function largestOfFour(arr) { // return the largest number from each array
 
 var number, largest;
 var final = [];  // set final to an array that will hold largest number from each inner array
@@ -14,7 +14,8 @@ var final = [];  // set final to an array that will hold largest number from eac
       }       
     }  
         final.push(largest);  // push each largest number to array 'final'
-  }  
+  } 
+  console.log(final); 
   return final;  // return 'final' array
 }
 

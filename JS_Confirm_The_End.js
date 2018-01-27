@@ -6,9 +6,11 @@ var match;
 match = str.substring(str.length - target.length, str.length);
   
 if (match == target){  // test if the 'match' substring = the target string or char
-  return true;   
+  console.log(true);   
+  return true;
 } 
 else{
+  console.log(false);
   return false;
 }
   
