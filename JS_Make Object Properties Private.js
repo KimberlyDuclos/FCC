@@ -19,7 +19,6 @@ var Car = function() {
 
 var Bike = function() {
 
-  // Only change code below this line.
   var gear;
   
   this.getGear = function() {
