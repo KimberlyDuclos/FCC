@@ -1,7 +1,7 @@
 function factorialize(num) {  
   
   var newNum = 1;  // set var to initial number
-  var n = 1;    // set var to user input number
+  var n;    // set var to user input number
   
   if (num <= 1){  // if statement setting 0 to 1
     console.log(1);
